@@ -1,0 +1,787 @@
+/* style.css */
+
+*::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw; /* عرض کامل مرورگر */
+    height: 89px;
+    padding: 0 165px; /* فاصله مناسب از چپ و راست */
+    background-color: white;
+    position: fixed; /* ثابت کردن نوبار در بالا */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border: solid 1px#eaeaea;
+}
+
+.logo img {
+    width: 63px;
+    height: 37px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #1e40af;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.one {
+    width: 100vw;
+    height: 600px;
+    background-color: #FAFAFB;
+    margin-top: 89px; /* جایگزین position: relative برای جلوگیری از فضای اضافی */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-image {
+    position: absolute;
+    left: 809px; /* فاصله از چپ */
+    top: 196px;  /* فاصله از بالای div */
+    width: 481px; /* عرض تصویر */
+    height: 386.07px; /* ارتفاع تصویر */
+}
+
+.content-box h1 {
+    width: 608px;
+    height: 180px;
+    position: absolute;
+    top: 209px;
+    left: 165px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 60px;
+    letter-spacing: -0.7px;
+    font-size: 36px;
+    color: #101010;
+}
+
+.content-box p {
+    width: 488px;
+    height: 68px;
+    position: absolute;
+    top: 421px;
+    left: 165px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0px;
+    color: #555555;
+}
+
+.cta-button {
+    width: 170px;
+    height: 48px;
+    position: absolute;
+    top: 521px;
+    left: 166px;
+    border-radius: 3px;
+    font-size: 18px;
+    color: white;
+    background-color: #2F5BD9;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.cta-button:hover {
+    background-color: #374bd3;
+    transform: scale(1.05);
+}
+
+
+.container-image {
+    position: absolute;
+    left: 809px;
+    top: 196px;
+    width: 481px;
+    height: 386.07px;
+}
+
+.outside-text {
+    width: 510px;
+    height: 120px;
+    position: absolute;
+    top: 793px;
+    left: 465px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #101010;
+}
+
+.container1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.two {
+    width: 100vw;
+    height: 698px;
+    background-color: #ffff;
+    margin-top: 240px; /* جایگزین position: relative برای جلوگیری از فضای اضافی */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box1 {
+    width: 475px;       /* عرض مشخص شده */
+    height: 405px;      /* ارتفاع مشخص شده */
+    position: absolute; /* برای موقعیت‌دهی دقیق */
+    top: 1089px;        /* فاصله از بالا */
+    left: 165px;        /* فاصله از چپ */
+}
+
+
+.content-box1 h1 {
+    width: 475px;
+    height: 70px;
+    position: absolute;
+    top: 62.5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -0.7px;
+    color: #101010; 
+}
+
+.content-box1 p {
+    width: 475px;
+    height: 136px;
+    position: absolute;
+    top: 91px;
+    margin-top: 62.5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0px;
+    color: #5D6F88;
+}
+
+.see-more-link{
+    
+        font-family: 'Roboto', sans-serif; /* فونت Roboto Medium */
+        position: absolute;
+        top: 310px;
+        font-size: 18px; /* اندازه فونت */
+        line-height: 32px; /* فاصله خطوط */
+        letter-spacing: 0px; /* فاصله بین حروف */
+        width: 77px; /* عرض */
+        height: 32px; /* ارتفاع */
+    
+    
+}
+
+.container-image1 img {
+    width: 528.37px; /* عرض عکس */
+    height: 368px; /* ارتفاع عکس */
+    position: absolute; /* برای قرار دادن دقیق عکس در موقعیت */
+    top: 1107px; /* فاصله از بالا */
+    left: 747px; /* فاصله از چپ */
+}
+
+
+.container2 {
+    width: 1440px;       /* عرض مشخص شده */
+    height: 698px;       /* ارتفاع مشخص شده */
+    position: absolute;
+    
+    
+      /* برای موقعیت‌دهی دقیق */
+            /* فاصله از بالا */
+}
+
+.three {
+    width: 100vw;
+    height: 698px;
+    margin-top: 0px;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.content-box2 {
+    width: 475px;       /* عرض مشخص شده */
+    height: 405px;      /* ارتفاع مشخص شده */
+    position: absolute; /* برای موقعیت‌دهی دقیق */
+    top: 120px;        /* فاصله از بالا */
+    left: 800px;        /* فاصله از چپ */
+}
+
+
+
+.content-box2 h1 {
+    width: 475px;
+    height: 70px;
+    position: absolute;
+    top: 62.5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -0.7px;
+    color: #101010; 
+}
+
+.content-box2 p {
+    width: 475px;
+    height: 136px;
+    position: absolute;
+    top: 91px;
+    margin-top: 62.5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0px;
+    color: #5D6F88;
+}
+
+.see-more-link1{
+    
+        font-family: 'Roboto', sans-serif; /* فونت Roboto Medium */
+        position: absolute;
+        top: 310px;
+        font-size: 18px; /* اندازه فونت */
+        line-height: 32px; /* فاصله خطوط */
+        letter-spacing: 0px; /* فاصله بین حروف */
+        width: 77px; /* عرض */
+        height: 32px; /* ارتفاع */
+    
+    
+}
+
+.container-image2 img {
+    width: 528.37px;       /* عرض مشخص شده */
+    height: 368px;         /* ارتفاع مشخص شده */
+    position: absolute;    /* برای موقعیت‌دهی دقیق */
+               /* فاصله از بالا */
+    left: 165px;
+    top: 157px;
+}
+
+.container3 {
+    width: 1440px;       /* عرض مشخص شده */
+    height: 698px;       /* ارتفاع مشخص شده */
+    position: absolute;
+    top: 2325px;
+    
+      /* برای موقعیت‌دهی دقیق */
+            /* فاصله از بالا */
+}
+
+.four {
+    width: 100vw;
+    height: 698px;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box3 {
+    width: 475px;       /* عرض مشخص شده */
+    height: 348px;      /* ارتفاع مشخص شده */
+    position: absolute; /* برای موقعیت‌دهی دقیق */
+    top: 175px;        /* فاصله از بالا */
+    left: 166px;     
+    gap: 10px;
+}
+
+.content-box3 h1 {
+    width: 475px;
+    height: 70px;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -0.7px;
+    color: #101010; 
+}
+
+.content-box3 p {
+    width: 475px;
+    height: 204px;
+    position: absolute;
+    margin-top: 91px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0px;
+    color: #5D6F88;
+}
+
+.see-more-link2{
+    
+        font-family: 'Roboto', sans-serif; /* فونت Roboto Medium */
+        position: absolute;
+        top: 316px;
+        font-size: 18px; /* اندازه فونت */
+        line-height: 32px; /* فاصله خطوط */
+        letter-spacing: 0px; /* فاصله بین حروف */
+        width: 77px; /* عرض */
+        height: 32px; /* ارتفاع */
+       
+}
+
+.container-image3 img {
+    width: 528.37px;       /* عرض مشخص شده */
+    height: 368px;         /* ارتفاع مشخص شده */
+    position: absolute;    /* برای موقعیت‌دهی دقیق */
+               /* فاصله از بالا */
+    left: 747px;
+    top: 165px;
+}
+
+.container4 {
+    width: 1440px;       /* عرض مشخص شده */
+    height: 698px;       /* ارتفاع مشخص شده */
+    position: absolute;
+    top: 3023px;
+}
+
+.five {
+    width: 100vw;
+    height: 698px;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box4 {
+    width: 475px;       /* عرض مشخص شده */
+    height: 405px;      /* ارتفاع مشخص شده */
+    position: absolute; /* برای موقعیت‌دهی دقیق */
+    top: 147px;        /* فاصله از بالا */
+    left: 800px;     
+}
+
+.content-box4 h1 {
+    width: 475px;
+    height: 70px;
+    top: 79.5px;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -0.7px;
+    color: #101010; 
+}
+
+.content-box4 p {
+    width: 475px;
+    height: 102px;
+    position: absolute;
+    margin-top: 170.5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0px;
+    color: #5D6F88;
+}
+
+.see-more-link3{
+    
+    font-family: 'Roboto', sans-serif; /* فونت Roboto Medium */
+    position: absolute;
+    top: 293.5px;
+    font-size: 18px; /* اندازه فونت */
+    line-height: 32px; /* فاصله خطوط */
+    letter-spacing: 0px; /* فاصله بین حروف */
+    width: 77px; /* عرض */
+    height: 32px; /* ارتفاع */
+
+}
+
+.container-image4 img {
+    width: 528.37px;       /* عرض مشخص شده */
+    height: 368px;         /* ارتفاع مشخص شده */
+    position: absolute;    /* برای موقعیت‌دهی دقیق */
+               /* فاصله از بالا */
+    left: 165px;
+    top: 165px;
+}
+.outside-text1{
+    
+        width: 226px;
+        height: 32px;
+        position: absolute;
+        top: 3841px;
+        left: 607px;
+        color: #101010;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: 0%;
+        text-align: center;
+    
+       
+}
+
+.outside-text2{
+
+        width: 811px;
+        height: 62px;
+        position: absolute;
+        top: 3905px;
+        left: 318px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: 0%;
+        text-align: center;
+        color: #555555;
+      
+}
+
+.pic1{
+    
+        width: 528px;
+        height: 417px;
+        position: absolute;
+        top: 4061px;
+        left: 165px;    
+}
+
+.pic1-txt1{
+    
+        width: 128px;
+        height: 35px;
+        position: absolute;
+        top: 4502px;
+        left: 165px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 35px;
+        letter-spacing: 0%;
+        color: #101010;
+}
+
+.pic1-txt2{
+    
+        width: 368px;
+        height: 59px;
+        position: absolute;
+        top: 4561px;
+        left: 165px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 0%;
+      color: #3F3B3B;
+      
+}
+
+.pic2{
+    width: 528px;
+    height: 548px;
+    position: absolute;
+    top: 4061px;
+    left: 747px;
+}
+
+.pic2-txt1{
+    width: 128px;
+    height: 35px;
+    position: absolute;
+    top: 4633px;
+    left: 747px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 35px;
+    letter-spacing: 0%;
+    color: #101010;
+}
+
+.pic2-txt2{
+    width: 368px;
+    height: 59px;
+    position: absolute;
+    top: 4692px;
+    left: 747px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0%;
+    color: #3F3B3B;
+}
+
+.cta-button1 {
+    width: 170px;
+    height: 48px;
+    position: absolute;
+    top: 4831px;
+    left: 635px;
+    border-radius: 3px;
+    font-size: 18px;
+    color: white;
+    background-color: #2F5BD9;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.cta-button1:hover {
+    background-color: #374bd3;
+    transform: scale(1.05);
+}
+
+.container5 {
+    width: 1440px;       /* عرض مشخص شده */
+    height: 368px;       /* ارتفاع مشخص شده */
+    position: absolute;
+    top: 4999px;
+}
+
+
+.six {
+    width: 100vw;
+    height: 295px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    border: solid 1px #eaeaea;
+    
+}
+
+
+.logo1{
+        width: 63px;       /* عرض مشخص شده */
+        height: 37px;         /* ارتفاع مشخص شده */
+        position: absolute;    /* برای موقعیت‌دهی دقیق */
+                   /* فاصله از بالا */
+        left: 166px;
+        top: 40px;
+    
+}
+
+.txt1{
+width: 380px;
+height: 34px;
+position: absolute;
+top: 109px;
+left: 165px;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+letter-spacing: 0px;
+color: #3F3B3B;
+}
+
+.txt2{
+width: 380;
+height: 34;
+position: absolute;
+top: 147px;
+left: 165px;
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+font-size: 24px;
+line-height: 34px;
+letter-spacing: 0px;
+color: #101010;
+
+}
+.txt3{
+    width: 160;
+height: 24;
+left: 1159px;
+top: 71px;
+position: absolute;
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0px;
+color: #3F3B3B;
+
+}
+
+.txt4{
+    width: 76;
+    height: 24;
+    left: 1159px;
+    top: 104px;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #3F3B3B;
+
+}
+
+.txt5{
+    width: 70;
+    height: 24;
+    left: 1159px;
+    top: 136px;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #3F3B3B;
+}
+
+.txt6{
+    width: 53px;
+    height: 24;
+    left: 1159px;
+    top: 168px;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    gap: 10px;
+    color: #3F3B3B;
+}
+
+.txt7{
+    width: 59px;
+    height: 24;
+    left: 1159px;
+    top: 200px;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    gap: 10px;
+    color: #3F3B3B;
+}
+
+.cta-button2 {
+    width: 224px;
+    height: 48px;
+    position: absolute;
+    top: 205px;
+    left: 165px;
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+    background-color: #2F5BD9;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.cta-button2:hover {
+    background-color: #374bd3;
+    transform: scale(1.05);
+}
+
+.logo2{
+    width: 23;
+height: 23;
+top: 319px;
+left: 165px;
+position: absolute;
+}
+
+.txt8{
+    width: 118px;
+    height: 24;
+    left: 1157px;
+    top: 319px;
+    position: absolute;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: #959393;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
