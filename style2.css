@@ -24,11 +24,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vw; /* عرض کامل مرورگر */
+    width: 100vw;
     height: 89px;
-    padding: 0 165px; /* فاصله مناسب از چپ و راست */
+    padding: 0 165px;
     background-color: white;
-    position: fixed; /* ثابت کردن نوبار در بالا */
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
@@ -344,10 +344,9 @@ color: #959393;
 }
 
 .logo1{
-    width: 63px;       /* عرض مشخص شده */
-    height: 37px;         /* ارتفاع مشخص شده */
-    position: absolute;    /* برای موقعیت‌دهی دقیق */
-               /* فاصله از بالا */
+    width: 63px;    
+    height: 37px;      
+    position: absolute;  
     left: 166px;
     top: 40px;
 

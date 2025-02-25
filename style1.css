@@ -24,11 +24,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100vw; /* عرض کامل مرورگر */
+    width: 100vw; 
     height: 89px;
-    padding: 0 165px; /* فاصله مناسب از چپ و راست */
+    padding: 0 165px; 
     background-color: white;
-    position: fixed; /* ثابت کردن نوبار در بالا */
+    position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
@@ -72,7 +72,7 @@ body {
     width: 100vw;
     height: 600px;
     background-color: #FAFAFB;
-    margin-top: 89px; /* جایگزین position: relative برای جلوگیری از فضای اضافی */
+    margin-top: 89px; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -80,10 +80,10 @@ body {
 
 .container-image {
     position: absolute;
-    left: 809px; /* فاصله از چپ */
-    top: 196px;  /* فاصله از بالای div */
-    width: 481px; /* عرض تصویر */
-    height: 386.07px; /* ارتفاع تصویر */
+    left: 809px; 
+    top: 196px;  
+    width: 481px;
+    height: 386.07px; 
 }
 
 .content-box h1 {
@@ -170,18 +170,18 @@ body {
     width: 100vw;
     height: 698px;
     background-color: #ffff;
-    margin-top: 240px; /* جایگزین position: relative برای جلوگیری از فضای اضافی */
+    margin-top: 240px; 
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .content-box1 {
-    width: 475px;       /* عرض مشخص شده */
-    height: 405px;      /* ارتفاع مشخص شده */
-    position: absolute; /* برای موقعیت‌دهی دقیق */
-    top: 1089px;        /* فاصله از بالا */
-    left: 165px;        /* فاصله از چپ */
+    width: 475px;       
+    height: 405px;      
+    position: absolute; 
+    top: 1089px;        
+    left: 165px;        
 }
 
 
@@ -214,35 +214,33 @@ body {
 
 .see-more-link{
     
-        font-family: 'Roboto', sans-serif; /* فونت Roboto Medium */
+        font-family: 'Roboto', sans-serif; 
         position: absolute;
         top: 310px;
-        font-size: 18px; /* اندازه فونت */
-        line-height: 32px; /* فاصله خطوط */
-        letter-spacing: 0px; /* فاصله بین حروف */
-        width: 77px; /* عرض */
-        height: 32px; /* ارتفاع */
+        font-size: 18px; 
+        line-height: 32px; 
+        letter-spacing: 0px; 
+        width: 77px;
+        height: 32px; 
+        color: #006EFF;
     
     
 }
 
+
 .container-image1 img {
-    width: 528.37px; /* عرض عکس */
-    height: 368px; /* ارتفاع عکس */
-    position: absolute; /* برای قرار دادن دقیق عکس در موقعیت */
-    top: 1107px; /* فاصله از بالا */
-    left: 747px; /* فاصله از چپ */
+    width: 528.37px; 
+    height: 368px;
+    position: absolute; 
+    top: 1107px; 
+    left: 747px; 
 }
 
 
 .container2 {
-    width: 1440px;       /* عرض مشخص شده */
-    height: 698px;       /* ارتفاع مشخص شده */
+    width: 1440px;    
+    height: 698px;      
     position: absolute;
-    
-    
-      /* برای موقعیت‌دهی دقیق */
-            /* فاصله از بالا */
 }
 
 .three {
@@ -257,11 +255,11 @@ body {
 
 
 .content-box2 {
-    width: 475px;       /* عرض مشخص شده */
-    height: 405px;      /* ارتفاع مشخص شده */
-    position: absolute; /* برای موقعیت‌دهی دقیق */
-    top: 120px;        /* فاصله از بالا */
-    left: 800px;        /* فاصله از چپ */
+    width: 475px;       
+    height: 405px;     
+    position: absolute; 
+    top: 120px;        
+    left: 800px;       
 }
 
 
@@ -295,35 +293,32 @@ body {
 
 .see-more-link1{
     
-        font-family: 'Roboto', sans-serif; /* فونت Roboto Medium */
+        font-family: 'Roboto', sans-serif; 
         position: absolute;
         top: 310px;
-        font-size: 18px; /* اندازه فونت */
-        line-height: 32px; /* فاصله خطوط */
-        letter-spacing: 0px; /* فاصله بین حروف */
-        width: 77px; /* عرض */
-        height: 32px; /* ارتفاع */
+        font-size: 18px; 
+        line-height: 32px;
+        letter-spacing: 0px;
+        width: 77px; 
+        height: 32px; 
+        color: #006EFF;
     
     
 }
 
 .container-image2 img {
-    width: 528.37px;       /* عرض مشخص شده */
-    height: 368px;         /* ارتفاع مشخص شده */
-    position: absolute;    /* برای موقعیت‌دهی دقیق */
-               /* فاصله از بالا */
+    width: 528.37px;       
+    height: 368px;        
+    position: absolute;  
     left: 165px;
     top: 157px;
 }
 
 .container3 {
-    width: 1440px;       /* عرض مشخص شده */
-    height: 698px;       /* ارتفاع مشخص شده */
+    width: 1440px;     
+    height: 698px;    
     position: absolute;
     top: 2325px;
-    
-      /* برای موقعیت‌دهی دقیق */
-            /* فاصله از بالا */
 }
 
 .four {
@@ -336,10 +331,10 @@ body {
 }
 
 .content-box3 {
-    width: 475px;       /* عرض مشخص شده */
-    height: 348px;      /* ارتفاع مشخص شده */
-    position: absolute; /* برای موقعیت‌دهی دقیق */
-    top: 175px;        /* فاصله از بالا */
+    width: 475px;       
+    height: 348px;      
+    position: absolute; 
+    top: 175px;       
     left: 166px;     
     gap: 10px;
 }
@@ -371,29 +366,28 @@ body {
 
 .see-more-link2{
     
-        font-family: 'Roboto', sans-serif; /* فونت Roboto Medium */
+        font-family: 'Roboto', sans-serif; 
         position: absolute;
         top: 316px;
-        font-size: 18px; /* اندازه فونت */
-        line-height: 32px; /* فاصله خطوط */
-        letter-spacing: 0px; /* فاصله بین حروف */
-        width: 77px; /* عرض */
-        height: 32px; /* ارتفاع */
-       
+        font-size: 18px; 
+        line-height: 32px; 
+        letter-spacing: 0px; 
+        width: 77px;
+        height: 32px; 
+        color: #006EFF;
 }
 
 .container-image3 img {
-    width: 528.37px;       /* عرض مشخص شده */
-    height: 368px;         /* ارتفاع مشخص شده */
-    position: absolute;    /* برای موقعیت‌دهی دقیق */
-               /* فاصله از بالا */
+    width: 528.37px;      
+    height: 368px;  
+    position: absolute;
     left: 747px;
     top: 165px;
 }
 
 .container4 {
-    width: 1440px;       /* عرض مشخص شده */
-    height: 698px;       /* ارتفاع مشخص شده */
+    width: 1440px;   
+    height: 698px;  
     position: absolute;
     top: 3023px;
 }
@@ -408,10 +402,10 @@ body {
 }
 
 .content-box4 {
-    width: 475px;       /* عرض مشخص شده */
-    height: 405px;      /* ارتفاع مشخص شده */
-    position: absolute; /* برای موقعیت‌دهی دقیق */
-    top: 147px;        /* فاصله از بالا */
+    width: 475px; 
+    height: 405px;
+    position: absolute;
+    top: 147px;   
     left: 800px;     
 }
 
@@ -443,22 +437,22 @@ body {
 
 .see-more-link3{
     
-    font-family: 'Roboto', sans-serif; /* فونت Roboto Medium */
+    font-family: 'Roboto', sans-serif; 
     position: absolute;
     top: 293.5px;
-    font-size: 18px; /* اندازه فونت */
-    line-height: 32px; /* فاصله خطوط */
-    letter-spacing: 0px; /* فاصله بین حروف */
-    width: 77px; /* عرض */
-    height: 32px; /* ارتفاع */
+    font-size: 18px;
+    line-height: 32px; 
+    letter-spacing: 0px;
+    width: 77px;
+    height: 32px;
+    color: #006EFF;
 
 }
 
 .container-image4 img {
-    width: 528.37px;       /* عرض مشخص شده */
-    height: 368px;         /* ارتفاع مشخص شده */
-    position: absolute;    /* برای موقعیت‌دهی دقیق */
-               /* فاصله از بالا */
+    width: 528.37px; 
+    height: 368px;
+    position: absolute;
     left: 165px;
     top: 165px;
 }
@@ -593,8 +587,8 @@ body {
 }
 
 .container5 {
-    width: 1440px;       /* عرض مشخص شده */
-    height: 368px;       /* ارتفاع مشخص شده */
+    width: 1440px;  
+    height: 368px;  
     position: absolute;
     top: 4999px;
 }
@@ -612,10 +606,9 @@ body {
 
 
 .logo1{
-        width: 63px;       /* عرض مشخص شده */
-        height: 37px;         /* ارتفاع مشخص شده */
-        position: absolute;    /* برای موقعیت‌دهی دقیق */
-                   /* فاصله از بالا */
+        width: 63px;   
+        height: 37px; 
+        position: absolute;
         left: 166px;
         top: 40px;
     
